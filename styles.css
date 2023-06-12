@@ -1,0 +1,58 @@
+body {
+    background-color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+
+  .navbar {
+    background-color: #556b2f;
+  }
+
+  .hero-section {
+    background-image: url(assets/shutterstock_1675607932.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-section h1 {
+    color: #ffffff;
+    font-size: 48px;
+    opacity: 0;
+    animation-name: fade-in;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes fade-in {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  .specialty-boxes {
+    background-color: #8fbc8f;
+    padding: 30px;
+    margin-top: 30px;
+    color: #ffffff;
+  }
+
+  .specialty-boxes img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+
+  .footer {
+    background-color: #556b2f;
+    color: #ffffff;
+    padding: 20px;
+    margin-top: auto;
+  }
