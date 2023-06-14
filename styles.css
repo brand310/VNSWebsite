@@ -2,19 +2,25 @@
 
 
 body {
-    background-color: #f5f5f5;
+    background-color: #fffbdc;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
   }
 
-  .navbar {
-    background-color: #00000000;
+  .navbar-brand {
+    margin-right: auto;
+    color: #047900; /* Customize the color */
+    font-family: 'Oswald', sans-serif; /* Customize the font family */
   }
-
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
   .navbar-nav .nav-link {
-    font-family: "Arial", sans-serif; /* Change the font family as needed */
-    color: #e42626; /* Change the color as needed */
+    color: #556b2f; /* Customize the color */
+    font-family: 'Oswald', sans-serif; /* Customize the font family */
   }
 
   .text-container h1 {
@@ -26,6 +32,7 @@ body {
   .text-container p {
     font-family: 'Oswald', sans-serif;
     font-weight: 400;
+    margin-top: 20px;
   }
   .text-container {
     animation: fade-in-right 1s ease-in-out;
